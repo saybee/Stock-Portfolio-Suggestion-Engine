@@ -1,0 +1,77 @@
+.input-container{
+    background-color: white;
+    min-height: 600px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border: 1px solid rgba(214, 210, 210, 0.6);
+}
+
+.input-heading{
+    color: #f2f2f2; background: #ff4a4a; font-size: 35px; line-height: 50px; font-weight: 700; margin: 0 5px 24px;  padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif;
+}
+.form-control-input{
+    width: 80%;
+    height:40px;
+    border:1px solid #cccccc ;
+}
+.pInput{
+    margin-left: 10%;
+    color: rgb(117, 115, 115);
+}
+.checkboxesInput{
+    margin-left: 10%;
+}
+.checkbox-inline{
+    padding: 8.6%;
+    
+}
+.checkboxesInput{
+    margin-top : -6%;
+    margin-left : 14%
+}
+.glyphInput{
+    margin-top : 8%;
+    margin-left : 7%
+}
+.checkbox-inline1{
+    padding-left: 5%;
+
+}
+.checkbox-inline2{
+    padding: 3%;
+}
+.glyphTextLabel{
+    margin-top : -5%;
+    margin-left : 7%;
+
+}
+.glyphicon {
+    display:block;
+    text-align:center;
+    color: #ff4a4a;
+    font-size: 3em;
+}
+/* .checkboxInput{
+    margin: 0 5px 0 20px;
+} */
+.inputCheckBox{
+    width:25%;
+    height:25%;
+  }
+  .inputSubmit{
+      margin-left: 30%;
+  }
+  .submit-button-input{
+    height: 48px;
+    width: 456px;
+    background: #ff4a4a none repeat scroll 0px 0px / auto padding-box border-box;
+    color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal 600 normal 20px / 48px -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    outline: rgb(255, 255, 255) none 0px;
+
+
+  }
