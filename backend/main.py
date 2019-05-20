@@ -24,7 +24,7 @@ def getdata():
 	if len(choices)<=0 or len(choices)>2:
 		return "Error"
 	print(choices)
-	stocklist = get_stock_list_all(choices)
+	stocklist = get_stock_list_all(choices,amount)
 	response_obj["response_object"]=stocklist
 	print('1234')
 	return jsonify(stocklist);
