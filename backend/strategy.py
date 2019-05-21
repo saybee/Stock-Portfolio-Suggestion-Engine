@@ -77,7 +77,7 @@ def get_stock_list_two_strategies(strategy,amount):
 stock_info={
 	 "Ethical Investing":("AAPL","ADBE","NKE","JCI","GOOG"),
 	  "Growth Investing":("ADBE","AVGO","NFLX","IMAX","SFM"),
-	  "Index Investing": ("VTI","IXUS","ILTB","^GSPC"),
-	  "Quality Investing":("EME","TSN","ENS","CVG"),
+	  "Index Investing": ("VTI","IXUS","ILTB","FDX","EXPE"),
+	  "Quality Investing":("EME","TSN","ENS","CVG","IXUS"),
 	  "Value Investing": ("FDC","TMUS","HCA","EXPE","FDX","CVS")  
 }

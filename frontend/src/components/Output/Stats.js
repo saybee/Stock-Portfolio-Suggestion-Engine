@@ -24,58 +24,7 @@ export class Stats extends Component {
             companies: this.props.location.state.detail
         })
         console.log("DATA", this.state.companies)
-        // const data = this.props.strategies
-        // const prop = ["ethical"]
-        // const strategies = ["Ethical Investing", "Growth Investing"]// this.props.location.state.strategies
-        // const amount = 5000//this.props.location.state.amount
-        // console.log("here ")
-        // if (strategies.length === 1) {
-        //     var data = {
-        //         price: 5000,
-        //         strategy: ["Ethical Investing", "Growth Investing"],
-        //     }
-        //     // axios.defaults.withCredentials = true;
-
-        //     axios.post('http://localhost:5000/getdata', data)
-        //         .then(response => {
-        //             console.log("resposne " + JSON.stringify(response.data))
-        //             if (response.status === 200) {
-        //                 this.setState({
-        //                     companies: response.data
-        //                 })
-        //             }
-
-        //         })
-        //         .catch(err => {
-        //             console.log("error")
-        //             this.setState({
-        //                 error: "couldn't fetch data"
-        //             })
-        //         })
-        // }
-        //else if (strategies.length === 2) {
-        //     const data = {
-        //         "amount": amount,
-        //         "strategy_1": strategies[0],
-        //         "strategy_2": strategies[1]
-        //     }
-
-
-        //     axios.post('http://localhost:5000/suggest2', data)
-        //         .then(response => {
-        //             if (response.status === 200) {
-        //                 this.setState({
-        //                     companies: response.data.stock_info
-        //                 })
-        //             }
-        //         })
-        //         .catch(err => {
-        //             console.log("error")
-        //             this.setState({
-        //                 error: "couldn't fetch data"
-        //             })
-        //         })
-        //  
+    
     }
 
     changeKey = (key) => {
@@ -127,7 +76,7 @@ export class Stats extends Component {
             <div className="stats">
                 <h4>Stocks Suggestion</h4><br />
 
-                <Table striped bordered hover>
+                <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>
                             <th>No.</th>

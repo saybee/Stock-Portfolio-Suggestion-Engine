@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LineChart, Line, AreaChart, Area, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
+import { LineChart, Line, BarChart, AreaChart, Area, CartesianGrid, XAxis, YAxis, Tooltip } from 'recharts';
 //import './Output.css'
 
 export class Graph extends Component {
