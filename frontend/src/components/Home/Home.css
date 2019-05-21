@@ -1,0 +1,69 @@
+/* .backgroundimg{
+    background-image: url('./stockwall2.jpg');
+    height:800px;
+} */
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 8000px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+  
+/* .ant-carousel .slick-slide .img {
+    background-image: url('./stockwall1.jpg');
+}
+
+.ant-carousel .slick-slide .img {
+    background-image: url('./stockwall2.jpg');
+} */
+
+.home1h1{
+    margin-bottom: 20%;
+    z-index: 1;
+    font-weight: 900;
+    font-size:100px;
+}
+
+.homeh3{
+    margin-left: 3;
+    color: blue;
+    font-weight: 900;
+}
+
+.home1p1{
+    margin-bottom: 5%;
+    z-index: 1;
+    font-weight: 600;
+    font-size:30px;
+}
+
+.signuplogin{
+    margin-left: 80%;
+    margin-top: -.5%;
+    font-size: 20px;
+}
+
+.linksignup{
+    color:white
+}
+
+.navbar{
+   background-color: #ff4a4a;
+   margin-bottom: -.1%;
+   
+}
+
+.homeimg{
+    z-index: -1;
+    height:900px
+}
+
+.carouselprop{
+    z-index: 0;
+}
+
+/* .fix{
+    margin-top: -10%
+} */

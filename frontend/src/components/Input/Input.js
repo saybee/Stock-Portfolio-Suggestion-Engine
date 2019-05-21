@@ -21,7 +21,18 @@ class Input extends Component {
     e.preventDefault();
     console.log(this.state.amount)
     var type = this.state.arr;
+    var amt = this.state.amount;
     console.log(type.length)
+    if(amt < 5000){
+      Swal.fire({
+        title: 'Error!',
+        text: 'Please select atleast one investment option',
+        type: 'error',
+        confirmButtonText: 'OK'
+      })
+      return
+    }
+
     if (type.length === 0) {
       Swal.fire({
         title: 'Error!',
