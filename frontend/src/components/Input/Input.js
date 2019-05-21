@@ -23,10 +23,10 @@ class Input extends Component {
     var type = this.state.arr;
     var amt = this.state.amount;
     console.log(type.length)
-    if(amt < 5000){
+    if (amt < 5000) {
       Swal.fire({
         title: 'Error!',
-        text: 'Please select atleast one investment option',
+        text: 'Please enter Amount greater than $5000',
         type: 'error',
         confirmButtonText: 'OK'
       })
@@ -97,6 +97,37 @@ class Input extends Component {
   render() {
     return (
       <div>
+        <div>
+          <head>
+            {/* <!-- Latest compiled and minified CSS --> */}
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+
+            {/* <!-- jQuery library --> */}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+            <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
+            <script
+              src="https://unpkg.com/react-dom/umd/react-dom.production.js"
+              crossorigin
+            />
+            <link
+              rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous"
+            />
+            <script
+              src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+              crossorigin
+            />
+            {/* <!-- Latest compiled JavaScript --> */}
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+            <script src="sweetalert2.min.js"></script>
+            <link rel="stylesheet" href="sweetalert2.min.css" />
+          </head>
+        </div>
+
         <nav className="navbar navbar-inverse">
           <div className="container-fluid">
             <div className="navbar-header">
@@ -119,7 +150,8 @@ class Input extends Component {
               <div className="glyphInput">
                 <label className="checkbox-inline1">
                   <span className="glyphicon glyphicon-list-alt" title="Home"></span>ETHICAL INVESTING
-</label>
+
+                </label>
                 <label className="checkbox-inline1">
                   <span className="glyphicon glyphicon-edit" ></span>GROWTH INVESTING
 </label>

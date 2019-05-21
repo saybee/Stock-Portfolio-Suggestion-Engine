@@ -12,11 +12,10 @@ export class Graph extends Component {
 
     return (
       <div className="profileview mb-3">Stock Price
-      <h1>hi i am here</h1>
         <LineChart width={1100} height={300} data={data} >
           <Line type="monotone" dataKey="high" stroke="#8884d8" />
           <Line type="monotone" dataKey="low" stroke="#000" />
-          <CartesianGrid stroke="#ccc" />
+          <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="day" />
           <YAxis dataKey="high" />
           <YAxis dataKey="low" />
