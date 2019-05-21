@@ -1,5 +1,9 @@
 # Stock-Portfolio-Suggestion-Engine
 
+## Link to our video : 
+
+https://youtu.be/SYjRK00o5dA 
+
 Setup:
 1) Install Python and other python dependencies using pip install command
 run python --version to check if python is correctly installed or not
