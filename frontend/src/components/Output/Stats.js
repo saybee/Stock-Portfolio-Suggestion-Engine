@@ -75,7 +75,12 @@ export class Stats extends Component {
         //                 error: "couldn't fetch data"
         //             })
         //         })
-        // }
+        //  
+    }
+
+    changeKey = (key) => {
+        console.log("key selected: ", key);
+        this.setState({ key })
     }
 
     render() {
@@ -98,7 +103,7 @@ export class Stats extends Component {
             tabs = <Tabs
                 id="controlled-tab-example"
                 activeKey={this.state.key}
-                onSelect={key => this.setState({ key })}
+                onSelect={key => this.changeKey(key)}
             >
                 {companies.map((company, index) => {
                     // let weeklyData = Object.keys(company.weeklyData)
